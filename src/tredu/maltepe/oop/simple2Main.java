@@ -11,7 +11,9 @@ public class simple2Main {
             p2 = new Professor( "Raif hoca");
             p1.teachs();
             p2.teachs();
+            //comment
 
         }
     }
+
 
