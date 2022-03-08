@@ -7,11 +7,11 @@ public class simple2Main {
 
             Professor p1,p2;
 
-            p1 = new Professor(name = "Ensar Gül");
-            p2 = new Professor(name = "Raif hoca");
+            p1 = new Professor("Ensar Gül");
+            p2 = new Professor( "Raif hoca");
             p1.teachs();
             p2.teachs();
 
         }
     }
-}
+

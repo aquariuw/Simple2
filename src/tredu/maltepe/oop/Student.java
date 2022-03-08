@@ -2,8 +2,8 @@ package tredu.maltepe.oop;
 
 
 public class Student {
-    string std_name;
-    Student(string name){
+    String std_name;
+    Student(String name){
         std_name=name;
     }
     void learns(){

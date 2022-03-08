@@ -1,8 +1,8 @@
 package tredu.maltepe.oop;
 
 public class Professor {
-    string prof_name;
-    Professor(string name){
+    String prof_name;
+    Professor(String name){
         prof_name = name;
     }
     void teachs(){
