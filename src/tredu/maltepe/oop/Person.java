@@ -1,17 +1,25 @@
 package tredu.maltepe.oop;
 
 public class Person {
-    public String Gender;
+    private String gender;
     Person(String GND){
-        Gender = GND;
+        gender = GND;
     }
 
     public Person() {
     }
 
+    public void setGender(String gender){
+        this.gender = gender;
+    }
+    public void getGender(){
+
+    }
+
+
     public void ShowGender(){
 
-        System.out.println("Gender of the Person:"+Gender);
+        System.out.println("Gender of the Person:"+gender);
 
     }
 
