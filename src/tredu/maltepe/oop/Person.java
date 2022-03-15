@@ -12,8 +12,8 @@ public class Person {
     public void setGender(String gender){
         this.gender = gender;
     }
-    public void getGender(){
-
+    public String getGender(){
+        return gender;
     }
 
 
